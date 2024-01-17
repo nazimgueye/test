@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class Test {
 
-    @GetMapping("/test")
+    @GetMapping("/")
         public Date date(){
         return new Date();
     }
