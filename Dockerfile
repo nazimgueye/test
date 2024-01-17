@@ -4,7 +4,7 @@
 #EXPOSE 8081
 #COPY target/test-1.jar app.jar
 #ENTRYPOINT ["java", "-jar", "/app.jar"]
-FROM openjdk:11
+FROM openjdk:21
 VOLUME /tmp
 EXPOSE 8080
 ARG JAR_FILE=target/test-1.jar
